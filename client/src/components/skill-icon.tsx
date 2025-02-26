@@ -8,14 +8,26 @@ interface SkillIconProps {
 }
 
 export default function SkillIcon({ name, icon }: SkillIconProps) {
-  // Remove "Si" prefix if it exists to match the icon name in the library
-  const iconName = icon.startsWith("Si") ? icon : `Si${icon}`;
-  const Icon = (SiIcons as Record<string, React.ComponentType>)[iconName];
+  const renderIcon = () => {
+    if (icon === "M") {
+      return (
+        <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-xl font-bold text-primary">
+          {icon}
+        </div>
+      );
+    }
 
-  if (!Icon) {
-    console.warn(`Icon ${iconName} not found`);
-    return null;
-  }
+    // For regular icons from react-icons/si
+    const iconName = icon.startsWith("Si") ? icon : `Si${icon}`;
+    const Icon = (SiIcons as Record<string, React.ComponentType>)[iconName];
+
+    if (!Icon) {
+      console.warn(`Icon ${iconName} not found`);
+      return null;
+    }
+
+    return <Icon className="w-12 h-12 mx-auto mb-2 text-primary" />;
+  };
 
   return (
     <motion.div
@@ -24,7 +36,7 @@ export default function SkillIcon({ name, icon }: SkillIconProps) {
     >
       <Card className="text-center">
         <CardContent className="pt-6">
-          <Icon className="w-12 h-12 mx-auto mb-2" />
+          {renderIcon()}
           <p className="text-sm font-medium">{name}</p>
         </CardContent>
       </Card>

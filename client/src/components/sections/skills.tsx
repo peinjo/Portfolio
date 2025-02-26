@@ -11,7 +11,7 @@ const skills = [
   { name: "Python", icon: "SiPython" },
   { name: "JavaScript", icon: "SiJavascript" },
   { name: "PineScript", icon: "SiTradingview" }, 
-  { name: "MetaQuotes", icon: "SiMt5" }, 
+  { name: "MetaQuotes", icon: "M" }, 
 ];
 
 export default function Skills() {

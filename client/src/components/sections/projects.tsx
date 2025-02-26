@@ -3,24 +3,24 @@ import ProjectCard from "@/components/project-card";
 
 const projects = [
   {
-    title: "E-commerce Platform",
-    description: "A full-stack e-commerce solution with real-time inventory management",
-    image: "https://images.unsplash.com/photo-1508873535684-277a3cbcc4e8",
-    tags: ["React", "Node.js", "PostgreSQL"],
+    title: "AI-Powered Tax Management Platform",
+    description: "Comprehensive tax calculation, audit, reporting, and transfer pricing platform with AI-driven tax review and suggestions",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f",
+    tags: ["Python", "AI/ML", "React", "Node.js"],
     link: "#"
   },
   {
-    title: "Analytics Dashboard",
-    description: "Real-time data visualization platform for business metrics",
-    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40",
-    tags: ["TypeScript", "D3.js", "Express"],
+    title: "Crypto Trading Application",
+    description: "Advanced cryptocurrency trading platform with real-time analytics and automated trading strategies",
+    image: "https://images.unsplash.com/photo-1518546305927-5a555bb7020d",
+    tags: ["React", "Node.js", "Websockets", "Crypto APIs"],
     link: "#"
   },
   {
-    title: "Social Media App",
-    description: "Feature-rich social platform with real-time messaging",
-    image: "https://images.unsplash.com/photo-1739514984003-330f7c1d2007",
-    tags: ["React Native", "Firebase", "Redux"],
+    title: "Trading Indicators Collection",
+    description: "Suite of custom trading indicators for market analysis and automated trading signals",
+    image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3",
+    tags: ["PineScript", "MetaQuotes", "Technical Analysis"],
     link: "#"
   }
 ];
