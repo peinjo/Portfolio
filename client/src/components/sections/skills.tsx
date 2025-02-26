@@ -8,6 +8,10 @@ const skills = [
   { name: "PostgreSQL", icon: "SiPostgresql" },
   { name: "Docker", icon: "SiDocker" },
   { name: "AWS", icon: "SiAmazonaws" },
+  { name: "Python", icon: "SiPython" },
+  { name: "JavaScript", icon: "SiJavascript" },
+  { name: "PineScript", icon: "SiTradingview" }, 
+  { name: "MetaQuotes", icon: "SiMt5" }, 
 ];
 
 export default function Skills() {
@@ -23,7 +27,7 @@ export default function Skills() {
           Skills & Technologies
         </motion.h2>
         <motion.div
-          className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8"
+          className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
