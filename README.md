@@ -44,6 +44,17 @@ npm install
 npm run dev
 ```
 
+## 🚀 Deployment
+
+The portfolio is set up to be deployed on GitHub Pages. To deploy:
+
+1. Go to the repository Settings > Pages
+2. Under "Source", select "Deploy from a branch"
+3. Under "Branch", select "main" and "/docs" folder
+4. Click "Save"
+
+The site will be available at: https://peinjo.github.io/Portfolio
+
 ## 📫 Contact
 
 - Email: Peinjobots@gmail.com, johnadeniyi2001@gmail.com
