@@ -9,7 +9,7 @@ export default function Footer() {
         </p>
         <div className="flex items-center space-x-4">
           <a
-            href="https://github.com"
+            href="https://github.com/peinjo"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"
@@ -17,7 +17,7 @@ export default function Footer() {
             <FaGithub size={20} />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/john-adeniyi-peinjo/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"
@@ -25,7 +25,7 @@ export default function Footer() {
             <FaLinkedin size={20} />
           </a>
           <a
-            href="https://twitter.com"
+            href="https://x.com/Peinjo1"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"
