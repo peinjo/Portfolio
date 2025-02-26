@@ -7,7 +7,7 @@ export default function Hero() {
     <section className="min-h-screen flex items-center justify-center px-4">
       <div className="max-w-4xl mx-auto text-center">
         <motion.img
-          src="/WhatsApp Image 2024-09-18 at 14.07.54_ce215c09.jpg"
+          src="/images/profile.jpg"
           alt="John Adeniyi"
           className="w-40 h-40 rounded-full mx-auto mb-8 object-cover"
           initial={{ scale: 0 }}

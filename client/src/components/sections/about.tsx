@@ -28,9 +28,15 @@ export default function About() {
             <p className="text-lg mb-6">
               With experience as a full-stack developer at Mzienet Technologies, I specialize in crafting seamless, scalable, and high-performance applications. My expertise spans Python, JavaScript, and MetaQuotes languages, with a keen focus on optimization, security, and user experience.
             </p>
-            <Button variant="outline">
-              Download Resume <FileDown className="ml-2" />
-            </Button>
+            <a 
+              href="https://drive.google.com/file/d/104FrYBYuGu3ql_C-TF_bwdQF15eAeiA-/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="outline">
+                Download Resume <FileDown className="ml-2" />
+              </Button>
+            </a>
           </div>
           <div className="space-y-4">
             <h3 className="text-xl font-semibold">Quick Facts</h3>
