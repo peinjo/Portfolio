@@ -5,6 +5,7 @@ import { insertContactSchema, type InsertContact } from "@shared/schema";
 import { useMutation } from "@tanstack/react-query";
 import { apiRequest } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
+import { Mail, Phone } from "lucide-react";
 import {
   Form,
   FormControl,
@@ -59,6 +60,32 @@ export default function Contact() {
         >
           Get in Touch
         </motion.h2>
+
+        <motion.div
+          className="mb-12 space-y-4"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+        >
+          <div className="flex items-center gap-3">
+            <Phone className="h-5 w-5 text-primary" />
+            <a href="tel:+2349079042381" className="hover:text-primary transition-colors">
+              +234 907 904 2381
+            </a>
+          </div>
+          <div className="flex items-center gap-3">
+            <Mail className="h-5 w-5 text-primary" />
+            <div className="space-y-1">
+              <a href="mailto:Peinjobots@gmail.com" className="block hover:text-primary transition-colors">
+                Peinjobots@gmail.com
+              </a>
+              <a href="mailto:johnadeniyi2001@gmail.com" className="block hover:text-primary transition-colors">
+                johnadeniyi2001@gmail.com
+              </a>
+            </div>
+          </div>
+        </motion.div>
+
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
