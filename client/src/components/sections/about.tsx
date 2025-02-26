@@ -23,12 +23,10 @@ export default function About() {
         >
           <div>
             <p className="text-lg mb-4">
-              I'm a passionate software engineer with expertise in modern web technologies.
-              I specialize in building scalable applications using React, Node.js, and cutting-edge tools.
+              I'm John Adeniyi, a passionate software developer and entrepreneur dedicated to creating innovative digital solutions. As the founder of Peinjo, I lead a team in developing cutting-edge mobile applications, expert advisors, and system designs.
             </p>
             <p className="text-lg mb-6">
-              With a strong foundation in both frontend and backend development,
-              I create seamless user experiences while ensuring robust, maintainable codebases.
+              With experience as a full-stack developer at Mzienet Technologies, I specialize in crafting seamless, scalable, and high-performance applications. My expertise spans Python, JavaScript, and MetaQuotes languages, with a keen focus on optimization, security, and user experience.
             </p>
             <Button variant="outline">
               Download Resume <FileDown className="ml-2" />
@@ -37,10 +35,10 @@ export default function About() {
           <div className="space-y-4">
             <h3 className="text-xl font-semibold">Quick Facts</h3>
             <ul className="space-y-2">
-              <li>🎓 Computer Science Graduate</li>
-              <li>💼 5+ Years Professional Experience</li>
-              <li>🌟 Open Source Contributor</li>
-              <li>📚 Continuous Learner</li>
+              <li>🚀 Founder of Peinjo</li>
+              <li>💼 Full-Stack Developer at Mzienet Technologies</li>
+              <li>🌟 Expert in Mobile Apps & Trading Systems</li>
+              <li>📚 Continuous Learner & Innovator</li>
             </ul>
           </div>
         </motion.div>
